@@ -5,7 +5,7 @@ constexpr int N_ELEMENTS = 100;
 int main()
 {
     int *b = new int[NELEMENTS];                       //N_ELEMENTS
-    std::cout << '1-100 ertekek duplazasa'             //"" nem '' a cout után és ; a végére és endl
+    std::cout << '1-100 ertekek duplazasa'             //"" nem '' a cout után, endl és ; a végére 
     for (int i = 0;)                                   //for ciklus kevés feltétellel
     {                                                        
         b[i] = i * 2;                                    
