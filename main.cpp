@@ -6,7 +6,7 @@ int main()
 {
     int *b = new int[N_ELEMENTS];                       //N_ELEMENTS
     std::cout << "1-100 ertekek duplazasa"<<endl;             //"" nem '' a cout után, endl és ; a végére 
-    for (int i = 0;)                                   //for ciklus kevés feltétellel
+    for (int i = 0;i>0;i++)                                   //for ciklus kevés feltétellel
     {                                                        
         b[i] = i * 2;                                    
     }                                                    
